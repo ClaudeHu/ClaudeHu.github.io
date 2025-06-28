@@ -1,30 +1,75 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Education - Claude Hu</title>
-<link href="style.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <title>Education - Claude Hu</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .edu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
+    }
+    .edu-card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+      max-width: 400px;
+      padding: 1.5rem;
+      flex: 1 1 300px;
+      background: #fafafa;
+    }
+    .edu-card img {
+      max-width: 60px;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .edu-card h3 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .edu-card .degree {
+      font-weight: bold;
+    }
+    .edu-card .courses {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-<header>
-<div><strong></strong><a href="index.html" style="text-decoration:none; color:inherit;">Claude Hu</a></div>
-<nav>
+  <header>
+    <div><a href="index.html" style="text-decoration:none; color:inherit;"><strong>Claude Hu</strong></a></div>
+    <nav>
+      <a href="experience.html">Experience</a>
+      <a href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Research</a>
+    </nav>
+  </header>
 
-<a href="experience.html">Experience</a>
-<a href="education.html">Education</a>
-<a href="projects.html">Projects</a>
-<a href="publications.html">Research</a>
-</nav>
-</header>
-<section>
-<h2>Education</h2>
-<ul>
-<li><strong>Master of Biostatistics</strong>, Duke University School of Medicine (2023)</li>
-<li><strong>B.S. in Computer Science &amp; Neuroscience</strong>, Emory University (2021)</li>
-</ul>
-</section>
+  <section>
+    <h2 style="text-align:center;">Education</h2>
+    <div class="edu-container">
+      
+      <div class="edu-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Duke_University_seal.svg/1200px-Duke_University_seal.svg.png" alt="Duke University Logo" />
+        <h3>Duke University, School of Medicine</h3>
+        <div class="degree">Master of Biostatistics, May 2023</div>
+        <div class="courses">Courses: Software Tools for Data Science, Bayesian & Modern Statistics, Probabilistic Machine Learning</div>
+        <div>Durham, NC</div>
+      </div>
+
+      <div class="edu-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Emory_University_seal.svg" alt="Emory University Logo" />
+        <h3>Emory University</h3>
+        <div class="degree">B.S. in CS & Neuroscience, May 2021</div>
+        <div class="courses">Courses: Algorithms, Machine Learning, Numerical Analysis, Data Visualization</div>
+        <div>Atlanta, GA</div>
+      </div>
+
+    </div>
+  </section>
 </body>
 </html>

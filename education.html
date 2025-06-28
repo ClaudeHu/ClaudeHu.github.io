@@ -13,17 +13,24 @@
       gap: 2rem;
     }
     .edu-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       border: 1px solid #ddd;
       border-radius: 12px;
       box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
       max-width: 600px;
+      width: 100%;
       padding: 1.5rem;
       background: #fafafa;
+      gap: 1rem;
+    }
+    .edu-text {
+      flex: 1;
     }
     .edu-card img {
-      max-width: 60px;
-      display: block;
-      margin-bottom: 1rem;
+      width: 60px;
+      height: auto;
     }
     .edu-card h3 {
       margin: 0.5rem 0 0.2rem;
@@ -53,19 +60,23 @@
     <div class="edu-container">
       
       <div class="edu-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Duke_University_seal.svg/1200px-Duke_University_seal.svg.png" alt="Duke University Logo" />
-        <h3>Duke University, School of Medicine</h3>
-        <div class="degree">Master of Biostatistics, May 2023</div>
-        <div class="courses">Courses: Software Tools for Data Science, Bayesian & Modern Statistics, Probabilistic Machine Learning</div>
-        <div>Durham, NC</div>
+        <div class="edu-text">
+          <h3>Duke University, School of Medicine</h3>
+          <div class="degree">Master of Biostatistics, May 2023</div>
+          <div class="courses">Courses: Software Tools for Data Science, Bayesian & Modern Statistics, Probabilistic Machine Learning</div>
+          <div>Durham, NC</div>
+        </div>
+        <img src="https://brand.duke.edu/wp-content/uploads/2019/09/duke-logo.png" alt="Duke University Logo" />
       </div>
 
       <div class="edu-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Emory_University_seal.svg" alt="Emory University Logo" />
-        <h3>Emory University</h3>
-        <div class="degree">B.S. in CS & Neuroscience, May 2021</div>
-        <div class="courses">Courses: Algorithms, Machine Learning, Numerical Analysis, Data Visualization</div>
-        <div>Atlanta, GA</div>
+        <div class="edu-text">
+          <h3>Emory University</h3>
+          <div class="degree">B.S. in CS & Neuroscience, May 2021</div>
+          <div class="courses">Courses: Algorithms, Machine Learning, Numerical Analysis, Data Visualization</div>
+          <div>Atlanta, GA</div>
+        </div>
+        <img src="https://communications.emory.edu/_includes/images/guide/logo-emory.png" alt="Emory University Logo" />
       </div>
 
     </div>

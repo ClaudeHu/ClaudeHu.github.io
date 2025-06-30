@@ -62,3 +62,67 @@ nav a.active {
   text-decoration: underline;
   color: #000;
 }
+
+
+
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.edu-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+  max-width: 600px;
+  width: 100%;
+  padding: 1.5rem;
+  background: #fafafa;
+  gap: 1rem;
+}
+.edu-text {
+  flex: 1;
+}
+.edu-card img {
+  width: 80px;
+  height: auto;
+}
+.edu-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+}
+.degree {
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  margin-top: 0.3rem;
+}
+.major {
+  font-style: italic;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+.grad-date {
+  font-size: 0.9rem;
+  color: #666;
+}
+.courses {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+.location {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+nav a.active {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+  font-weight: bold;
+  color: #000;
+}

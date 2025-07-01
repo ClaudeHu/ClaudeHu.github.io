@@ -21,6 +21,13 @@ header a {
   font-weight: bold;
 }
 
+header a.active {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+  font-weight: bold;
+  color: #000;
+}
+
 nav a.active {
   border-bottom: 2px solid black;
   padding-bottom: 2px;

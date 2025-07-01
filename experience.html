@@ -1,46 +1,67 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Experience - Claude Hu</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Experience - Claude Hu</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  .experience-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2rem;
+  }
+
+  .exp-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .exp-text {
+    flex: 1;
+  }
+
+  .exp-info {
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+</style></head>
 <body>
 <header>
-  <div><a href="index.html">About Me</a></div>
-  <nav>
-    <a class="active" href="experience.html">Experience</a>
-    <a href="education.html">Education</a>
-    <a href="projects.html">Projects</a>
-    <a href="publications.html">Research</a>
-  </nav>
+<div><a href="index.html">About Me</a></div>
+<nav>
+<a class="active" href="experience.html">Experience</a>
+<a href="education.html">Education</a>
+<a href="projects.html">Projects</a>
+<a href="publications.html">Research</a>
+</nav>
 </header>
-
 <main>
-  <section class="experience-box">
-    <h2>Scientific Programmer<br><span class="org">Sheffield Lab, UVA (2023–Now)</span></h2>
-    <ul>
-      <li>Built ML models and semantic retrieval pipelines for genomic data</li>
-      <li>Developed Python and Rust tools for genomic interval processing</li>
-      <li>Fine-tuned language models and curated biomedical datasets</li>
-    </ul>
-  </section>
+<section class="experience-box">
 
-  <section class="experience-box">
-    <h2>Graduate Research Assistant<br><span class="org">Duke University (2022–2023)</span></h2>
-    <ul>
-      <li>NLP on clinical data and fairness-aware predictive modeling</li>
-    </ul>
-  </section>
 
-  <section class="experience-box">
-    <h2>Research Assistant<br><span class="org">Emory University (2020–2021)</span></h2>
-    <ul>
-      <li>Designed NLP pipelines for sentiment and relation extraction</li>
-    </ul>
-  </section>
+</section>
+<section class="experience-box">
+<h2>Graduate Research Assistant<br/><span class="org">Duke University (2022–2023)</span></h2>
+<ul>
+<li>NLP on clinical data and fairness-aware predictive modeling</li>
+</ul>
+</section>
+<section class="experience-box">
+<h2>Research Assistant<br/><span class="org">Emory University (2020–2021)</span></h2>
+<ul>
+<li>Designed NLP pipelines for sentiment and relation extraction</li>
+</ul>
+</section>
 </main>
 </body>
 </html>

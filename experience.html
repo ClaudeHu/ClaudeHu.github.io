@@ -8,7 +8,7 @@
 <link href="style.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
 <style>
-.experience-box {
+.exp-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -17,6 +17,7 @@
 .exp-card {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 8px;
@@ -28,7 +29,6 @@
   text-align: right;
   white-space: nowrap;
   margin-left: 20px;
-  font-weight: bold;
 }
 .exp-text .org {
   font-weight: bold;
@@ -46,6 +46,6 @@
 <a href="publications.html">Research</a>
 </nav>
 </header>
-<main><section class="experience-box"><div class="exp-card"><div class="exp-text"><h3>Scientific Programmer</h3><p class="org">Sheffield Lab, University of Virginia</p><ul><li>Contributed to the development of a Python package for machine learning models of genomic interval data.</li><li>Extended &amp; tested a Rust crate for genomic interval data analysis and processing.</li><li>Optimized genomic interval data storage pipeline, reduced runtime by 40%.</li><li>Built a file retrieval pipeline combining semantic search with genomic interval representation learning.</li><li>Curated ad-hoc datasets with biomedical ontologies.</li><li>Fine-tuned open-source language models for information retrieval.</li></ul></div><div class="exp-info">Charlottesville, VA · 2023–Now</div></div><div class="exp-card"><div class="exp-text"><h3>Graduate Research Assistant</h3><p class="org">Department of Biostatistics &amp; Bioinformatics, Duke University</p><ul><li>Developed Python/R functions to automate preprocessing of unstructured clinical data.</li><li>Performed medical concept extraction and entity mapping from electronic health records with NLP tools.</li><li>Retrieved and preprocessed raw data from Duke Clinical Research Data Mart (CRDM).</li><li>Trained predictive models and analyzed model fairness across demographic groups.</li></ul></div><div class="exp-info">Durham, NC · 2022–2023</div></div><div class="exp-card"><div class="exp-text"><h3>Research Assistant</h3><p class="org">Department of Sociology, Emory University</p><ul><li>Contributed to the development of a computational social science data analysis toolkit.</li><li>Designed a pipeline that applied the annotation of Stanford CoreNLP to concise relationship extraction.</li><li>Preprocessed raw data for an interdisciplinary project that analyzed statements from HIV patients.</li><li>Utilized open-source Python libraries to perform sentiment analysis on interviews.</li></ul></div><div class="exp-info">Atlanta, GA · 2020–2021</div></div></section></main>
+<main><section class="exp-container"><div class="exp-card"><div class="exp-text"><h3>Scientific Programmer</h3><p class="org">Sheffield Lab, University of Virginia</p><ul><li>Contributed to the development of a Python package for machine learning models of genomic interval data.</li><li>Extended &amp; tested a Rust crate for genomic interval data analysis and processing.</li><li>Optimized genomic interval data storage pipeline, reduced runtime by 40%.</li><li>Built a file retrieval pipeline combining semantic search with genomic interval representation learning.</li><li>Curated ad-hoc datasets with biomedical ontologies.</li><li>Fine-tuned open-source language models for information retrieval.</li></ul></div><div class="exp-info"><div>📅 2023–Now</div><div>📍 Charlottesville, VA</div></div></div><div class="exp-card"><div class="exp-text"><h3>Graduate Research Assistant</h3><p class="org">Department of Biostatistics &amp; Bioinformatics, Duke University</p><ul><li>Developed Python/R functions to automate preprocessing of unstructured clinical data.</li><li>Performed medical concept extraction and entity mapping from electronic health records with NLP tools.</li><li>Retrieved and preprocessed raw data from Duke Clinical Research Data Mart (CRDM).</li><li>Trained predictive models and analyzed model fairness across demographic groups.</li></ul></div><div class="exp-info"><div>📅 2022–2023</div><div>📍 Durham, NC</div></div></div><div class="exp-card"><div class="exp-text"><h3>Research Assistant</h3><p class="org">Department of Sociology, Emory University</p><ul><li>Contributed to the development of a computational social science data analysis toolkit.</li><li>Designed a pipeline that applied the annotation of Stanford CoreNLP to concise relationship extraction.</li><li>Preprocessed raw data for an interdisciplinary project that analyzed statements from HIV patients.</li><li>Utilized open-source Python libraries to perform sentiment analysis on interviews.</li></ul></div><div class="exp-info"><div>📅 2020–2021</div><div>📍 Atlanta, GA</div></div></div></section></main>
 </body>
 </html>

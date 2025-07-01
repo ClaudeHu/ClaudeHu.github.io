@@ -2,63 +2,98 @@
 
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Education - Claude Hu</title>
-<link href="style.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <title>Education - Claude Hu</title>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+    .edu-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
 
+    .edu-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .edu-text {
+      flex: 1;
+    }
+
+    .edu-info {
+      text-align: right;
+      white-space: nowrap;
+      margin-left: 20px;
+    }
+
+    .degree {
+      margin-bottom: 20px; /* 增加学位与课程之间的空隙 */
+    }
+  </style>
 </head>
+
 <body>
-<header>
-<div><a href="index.html">Claude Hu</a></div>
-<nav>
-<a href="experience.html">Experience</a>
-<a class="active" href="education.html">Education</a>
-<a href="projects.html">Projects</a>
-<a href="publications.html">Research</a>
-</nav>
-</header>
-<section>
-  <div class="edu-container">
+  <header>
+    <div><a href="index.html">Claude Hu</a></div>
+    <nav>
+      <a href="experience.html">Experience</a>
+      <a class="active" href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Research</a>
+    </nav>
+  </header>
 
-    <div class="edu-card">
-      <div class="edu-text">
-        <h3>Duke University</h3>
-        <div class="degree">Master of Biostatistics</div>
-        <div class="grad-date">Graduated: 05/2023</div>
-        <div class="location">📍 Durham, NC</div>
-        <div class="courses">
-          <strong>Relevant Courses:</strong>
-          <ul>
-            <li>Bayesian Methods and Modern Statistics</li>
-            <li>Software Tools for Data Science</li>
-            <li>Statistical Genetics and Genetics Epidemiology</li>
-            <li>Statistical Methods for Learning and Discovery</li>
-            <li>Statistical Programming for Big Data</li>
-          </ul>
+  <section>
+    <div class="edu-container">
+
+      <div class="edu-card">
+        <div class="edu-text">
+          <h3>Duke University</h3>
+          <div class="degree">Master of Biostatistics</div>
+          <div class="courses">
+            <strong>Relevant Courses:</strong>
+            <ul>
+              <li>Bayesian Methods and Modern Statistics</li>
+              <li>Software Tools for Data Science</li>
+              <li>Statistical Genetics and Genetics Epidemiology</li>
+              <li>Statistical Methods for Learning and Discovery</li>
+              <li>Statistical Programming for Big Data</li>
+            </ul>
+          </div>
+        </div>
+        <div class="edu-info">
+          <div>📅 08/2021 – 05/2023</div>
+          <div>📍 Durham, NC</div>
         </div>
       </div>
-    </div>
 
-    <div class="edu-card">
-      <div class="edu-text">
-        <h3>Emory University</h3>
-        <div class="degree">Bachelor of Science (B.S.)</div>
-        <div class="major">Computer Science</div>
-        <div class="major">Neuroscience and Behavioral Biology</div>
-        <div class="grad-date">Graduated: 05/2021</div>
-        <div class="location">📍 Atlanta, GA</div>
-        <div class="courses">
-          <strong>Relevant Courses:</strong>
-          <ul>
-            <li>Analysis of Algorithms</li>
-            <li>Big/Small Data and Visualization</li>
-            <li>Machine Learning</li>
-          </ul>
+      <div class="edu-card">
+        <div class="edu-text">
+          <h3>Emory University</h3>
+          <div class="degree">Bachelor of Science (B.S.)</div>
+          <div class="major">Computer Science</div>
+          <div class="major">Neuroscience and Behavioral Biology</div>
+          <div class="courses">
+            <strong>Relevant Courses:</strong>
+            <ul>
+              <li>Analysis of Algorithms</li>
+              <li>Big/Small Data and Visualization</li>
+              <li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="edu-info">
+          <div>📅 08/2017 – 05/2021</div>
+          <div>📍 Atlanta, GA</div>
         </div>
       </div>
-    </div>
 
-  </div>
-</section>
+    </div>
+  </section>
 </body>
 </html>

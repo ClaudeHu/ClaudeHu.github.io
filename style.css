@@ -234,3 +234,37 @@ nav a.active {
   margin-left: 1rem;
 }
 
+.sidebar {
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profile img {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile .social-icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.profile .social-icons img {
+  width: 24px;
+  height: 24px;
+}
+

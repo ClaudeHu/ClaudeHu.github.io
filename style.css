@@ -115,7 +115,9 @@ nav a.active {
 
 .info-block {
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: left;
+  width: 100%;
+  padding-left: 0.5rem; /* 可选：让内容不贴边 */
 }
 
 .info-block h3 {

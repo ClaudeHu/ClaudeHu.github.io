@@ -159,3 +159,23 @@ li {
   font-size: 0.95em;
   color: #555;
 }
+
+/* time & location to align to right side */
+.edu-info {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+
+/* separate cards */
+.edu-card {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.degree {
+  margin-bottom: 1.2rem;
+}

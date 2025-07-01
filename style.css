@@ -53,7 +53,6 @@ nav a.active {
 }
 
 .social-icons a {
-  margin-right: 1rem;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -82,18 +81,18 @@ nav a.active {
 }
 
 .profile img {
-  border-radius: 1rem;
-  max-width: 200px;
+  max-width: 120px;
+  border-radius: 50%;
 }
 
 .profile .social-icons {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  gap: 12px;
 }
 
 .profile .social-icons a {
-  margin-right: 1rem;
   font-size: 1.5rem;
   color: #333;
   text-decoration: none;
@@ -104,8 +103,8 @@ nav a.active {
 }
 
 .profile .social-icons img {
+  width: 24px;
   height: 24px;
-  vertical-align: middle;
 }
 
 .info-section {
@@ -117,7 +116,7 @@ nav a.active {
   margin-bottom: 1.5rem;
   text-align: left;
   width: 100%;
-  padding-left: 0.5rem; /* 可选：让内容不贴边 */
+  padding-left: 0.5rem;
 }
 
 .info-block h3 {
@@ -179,6 +178,7 @@ nav a.active {
   font-weight: bold;
   font-family: 'Georgia', serif;
   margin-top: 0.3rem;
+  margin-bottom: 1.2rem;
 }
 
 .major {
@@ -234,13 +234,3 @@ nav a.active {
   margin-left: 1rem;
 }
 
-/* separate cards */
-.edu-card {
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.5rem;
-}
-
-.degree {
-  margin-bottom: 1.2rem;
-}

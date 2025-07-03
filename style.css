@@ -232,7 +232,10 @@ nav a.active {
   font-size: 0.9rem;
   line-height: 1.5;
   margin-left: 1rem;
+  align-self: flex-start; /* 向上对齐卡片顶部 */
+  margin-top: 0.2rem;     /* 可根据视觉微调 0 ~ 6px */
 }
+
 
 .sidebar {
   box-sizing: border-box;

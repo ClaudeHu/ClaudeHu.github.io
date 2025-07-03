@@ -287,16 +287,19 @@ nav a.active {
   color: #4a90e2;
 }
 
+
+
+
 .supervisor {
-  font-size: 1em;
-  font-weight: normal;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  color: #555;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-top: -8px;
+  margin-bottom: 12px;
+  color: #666;
 }
 
 .supervisor a {
-  color: #3366cc;
+  color: #4a7fd3;
   text-decoration: none;
 }
 

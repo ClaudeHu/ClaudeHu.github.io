@@ -271,3 +271,18 @@ nav a.active {
   height: 24px;
 }
 
+.top-right-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -1.5rem;
+}
+
+.top-right-icon a {
+  font-size: 1.3rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.top-right-icon a:hover {
+  color: #4a90e2;
+}

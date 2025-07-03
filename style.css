@@ -286,3 +286,20 @@ nav a.active {
 .top-right-icon a:hover {
   color: #4a90e2;
 }
+
+.supervisor {
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.supervisor a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.supervisor a:hover {
+  text-decoration: underline;
+}

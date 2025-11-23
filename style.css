@@ -330,10 +330,11 @@ section li {
 
 .section-title {
   font-size: 1.5em;
-  margin-top: 30px;
-  margin-bottom: 10px;
   font-weight: 600;
-  color: #333;
+  color: #666;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  width: fit-content;
 }
 
 .section-frame {

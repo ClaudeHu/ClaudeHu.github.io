@@ -331,7 +331,7 @@ section li {
 .section-title {
   font-size: 1.5em;
   font-weight: 600;
-  color: #666;
+  color: #666 !important;
   border-bottom: 1px solid #ccc;
   padding-bottom: 4px;
   width: fit-content;

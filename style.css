@@ -48,31 +48,8 @@ nav a.active {
   margin-right: 2rem;
 }
 
-.intro-section {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.intro-subtitle {
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #666;
-  margin-bottom: 18px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 8px;
-  display: inline-block;
-}
-
 .intro {
-  border: 1.5px solid #dfdfdf;
-  border-radius: 10px;
-  padding: 25px;
-  background: #fafafa;
-  box-shadow: 0 3px 7px rgba(0,0,0,0.04);
+  max-width: 600px;
 }
 
 .social-icons a {
